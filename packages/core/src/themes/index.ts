@@ -478,7 +478,7 @@ export const themes = {
     icon_color: "C1121F",
     text_color: "F5F5F5",
     bg_color: "0A0A0A",
-    border_color: "#D4AF37"
+    border_color: "D4AF37"
   },
   chara2: {
     title_color: "FFD700",
