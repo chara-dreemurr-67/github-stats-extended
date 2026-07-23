@@ -473,4 +473,25 @@ export const themes = {
     icon_color: "ffffff",
     bg_color: "35,4158d0,c850c0,ffcc70",
   },
+  chara: {
+    title_color: "#D4AF37",
+    icon_color: "#C1121F",
+    text_color: "#F5F5F5",
+    bg_color: "#0A0A0A",
+    border_color: "#D4AF37"
+  },
+  chara2: {
+    title_color: "#FFD700",
+    icon_color: "#8B0000",
+    text_color: "#EAEAEA",
+    bg_color: "#000000",
+    border_color: "#B8860B"
+  },
+  chara3: {
+    title_color: "#FFD700",
+    icon_color: "#FF2D2D",
+    text_color: "#FFFFFF",
+    bg_color: "#121212",
+    border_color: "#FFD700"
+  }
 } as const satisfies Record<string, Theme>;
