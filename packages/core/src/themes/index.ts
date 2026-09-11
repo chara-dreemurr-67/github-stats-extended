@@ -23,6 +23,34 @@ export const themes = {
     text_color: "434d58",
     bg_color: "fffefe",
   },
+  light_github: {
+    title_color: "0969da",
+    icon_color: "0969da",
+    text_color: "59636e",
+    bg_color: "ffffff",
+    border_color: "d1d9e0",
+  },
+  dark_github: {
+    title_color: "4493f8",
+    icon_color: "4493f8",
+    text_color: "9198a1",
+    bg_color: "0d1117",
+    border_color: "3d444d",
+  },
+  light_github_repocard: {
+    title_color: "0969da",
+    icon_color: "59636e",
+    text_color: "59636e",
+    bg_color: "ffffff",
+    border_color: "d1d9e0",
+  },
+  dark_github_repocard: {
+    title_color: "4493f8",
+    icon_color: "9198a1",
+    text_color: "9198a1",
+    bg_color: "0d1117",
+    border_color: "3d444d",
+  },
   transparent: {
     title_color: "006AFF",
     icon_color: "0579C3",
@@ -495,3 +523,8 @@ export const themes = {
     border_color: "B22222"
   }
 } as const satisfies Record<string, Theme>;
+
+/**
+ * Name of one of the {@link themes}.
+ */
+export type ThemeName = keyof typeof themes;

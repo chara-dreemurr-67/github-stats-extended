@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Install Dependencies
         uses: ./.github/actions/install-dependencies
@@ -59,7 +59,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Install Dependencies
         uses: ./.github/actions/install-dependencies
@@ -83,11 +83,15 @@ jobs:
     permissions:
       contents: read
 
+    # Compares the cards we render here against the preview deployment,
+    # which is still on the last commit merged on master.
+    # So any PR that changes card output turns this red until the preview catches up.
+    # Worth a look, just not always a bug.
     continue-on-error: true
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Install Dependencies
         uses: ./.github/actions/install-dependencies
@@ -108,7 +112,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Install Dependencies
         uses: ./.github/actions/install-dependencies
@@ -121,6 +125,12 @@ jobs:
 
       - name: Lint (knip)
         run: pnpm run lint:knip
+
+      - name: Lint (deduped deps)
+        run: pnpm run lint:deps
+
+      - name: Lint (generated GraphQL types)
+        run: pnpm --filter ./packages/core/ run check-graphql-types
 
       - name: Typecheck
         run: pnpm run typecheck
