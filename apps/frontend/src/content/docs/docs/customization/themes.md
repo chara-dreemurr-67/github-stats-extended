@@ -43,7 +43,8 @@ Use `?theme=THEME_NAME` parameter like so:
 |    `catppuccin_latte` ![catppuccin_latte][catppuccin_latte]    |       `catppuccin_mocha` ![catppuccin_mocha][catppuccin_mocha]       |             `date_night` ![date_night][date_night]             |
 |          `one_dark_pro` ![one_dark_pro][one_dark_pro]          |                         `rose` ![rose][rose]                         |                      `holi` ![holi][holi]                      |
 |                      `neon` ![neon][neon]                      |                 `blue_navy` ![blue_navy][blue_navy]                  |              `calm_pink` ![calm_pink][calm_pink]               |
-|    `ambient_gradient` ![ambient_gradient][ambient_gradient]    |                                                                      |                                                                |
+|    `ambient_gradient` ![ambient_gradient][ambient_gradient]    |                       `chara` ![chara][chara]                        |                   `chara2` ![chara2][chara2]                   |
+|                   `chara3` ![chara3][chara3]                   |                                                                      |                                                                |
 
 ## Repo Card
 
@@ -76,7 +77,8 @@ Use `?theme=THEME_NAME` parameter like so:
 |    `catppuccin_latte` ![catppuccin_latte][catppuccin_latte_repo]    |        `catppuccin_mocha` ![catppuccin_mocha][catppuccin_mocha_repo]         |                `date_night` ![date_night][date_night_repo]                |
 |          `one_dark_pro` ![one_dark_pro][one_dark_pro_repo]          |                          `rose` ![rose][rose_repo]                           |                         `holi` ![holi][holi_repo]                         |
 |                      `neon` ![neon][neon_repo]                      |                   `blue_navy` ![blue_navy][blue_navy_repo]                   |                 `calm_pink` ![calm_pink][calm_pink_repo]                  |
-|    `ambient_gradient` ![ambient_gradient][ambient_gradient_repo]    |                                                                              |                                                                           |
+|    `ambient_gradient` ![ambient_gradient][ambient_gradient_repo]    |                         `chara` ![chara][chara_repo]                         |                      `chara2` ![chara2][chara2_repo]                      |
+|                   `chara3` ![chara3][chara3_repo]                   |                                                                              |                                                                           |
 
 [default]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=default
 [default_repocard]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=default_repocard
@@ -157,6 +159,9 @@ Use `?theme=THEME_NAME` parameter like so:
 [blue_navy]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=blue_navy
 [calm_pink]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=calm_pink
 [ambient_gradient]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=ambient_gradient
+[chara]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=chara
+[chara2]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=chara2
+[chara3]: /api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=chara3
 [default_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=default
 [default_repocard_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=default_repocard
 [light_github_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=light_github
@@ -236,3 +241,6 @@ Use `?theme=THEME_NAME` parameter like so:
 [blue_navy_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=blue_navy
 [calm_pink_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=calm_pink
 [ambient_gradient_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=ambient_gradient
+[chara_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=chara
+[chara2_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=chara2
+[chara3_repo]: /api/pin?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=chara3
